@@ -1,0 +1,8 @@
+---
+- name: Provision VM
+  hosts: hyper.nicktailor.local
+  gather_facts: no
+
+  tasks:
+    - import_tasks: roles/ansible-hyperv/tasks/prov_vm.yml
+

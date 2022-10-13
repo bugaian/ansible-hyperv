@@ -1,0 +1,11 @@
+defaut_generation: 1
+
+ansible_user: Administrator
+ansible_password: system123. 
+ansible_port: 5985
+ansible_connection: winrm
+ansible_winrm_server_cert_validation: ignore
+
+
+ 
+
