@@ -1,0 +1,8 @@
+- ansible.builtin.import_tasks: prov_vm.yml
+  tags:
+    - vm_hyperv
+
+- ansible.builtin.import_tasks: delete.yml
+  tags:
+    - vm_hyperv_delete
+
