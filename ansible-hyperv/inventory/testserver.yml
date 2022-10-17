@@ -14,6 +14,10 @@ vms:
 #    network_switch: 'External Virtual Switch'
     network_switch: 'Cisco VIC Ethernet Interface #6 - Virtual Switch'
     vlanid: 1113 
+ 
+#   source-image
+    src_vhd: 'Z:\volumes\devops\devopssysprep\devopssysprep.vhdx'
 
-    src_vhd: 'C:\volumes\cc1h7_devops\devopssysprep\devopssysprep.vhdx'
-    dest_vhd: 'C:\volumes\cc1h7_devops\nicktest.vhdx'
+#   destination will be created in Z:\\volumes\servername\servername.vhdx by default
+#   to change the paths you need to updaet the prov_vm.yml first three task paths
+  
